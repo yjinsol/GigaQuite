@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recording"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/invert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invert"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/combine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="combine"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play2"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/invert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invert2"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <Button
+        android:id="@+id/combine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="combine2"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="202dp" />
+</android.support.constraint.ConstraintLayout>

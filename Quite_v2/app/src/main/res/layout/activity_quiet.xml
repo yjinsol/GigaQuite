@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".Quiet">
+
+    <Button
+        android:id="@+id/recording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="record"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start(원음.pcm)"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/invert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invert(반전.pcm)"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/combine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="combi"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start2(원음.wav)"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/invert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invert2(반전.wav)"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="convert"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/combine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="combi2"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/wavtoarray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="array"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
