@@ -1,5 +1,10 @@
 - v2 코드 현재상황
 * 안드로이드 App - 파이썬 Server 통신 완료
+* Android 코드에서 SocketTest.java : 안드로이드에서 파일 수신
+* Android 코드에서 Quiet.java : 안드로이드에서 서버로 String 전송
+* Server 코드에서 Server_RcvArray.py : 파이썬 서버에서 String 수신
+* Server 코드에서 Server_SendFile.py : 파이썬 서버에서 안드로이드로 파일 전송
+
 1. App에서 녹음 가능
 2. 녹음 후 저장된 파일(원음.pcm, 원음.wav, 반전.pcm, 반전.wav) 중 가장 깨끗한 음질인 반전.wav를 Byte Array로 변환
 3. wav의 일정하게 잘린 부분 -> Byte로 변환 후 
